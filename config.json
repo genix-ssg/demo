@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "title": "My Website",
+    "meta_description": "Default Meta Description",
+    "meta_keywords": "Default Keyword",
+    "header_tag": "HEAD",
+    "template": "base"
+  },
+  "directories": {
+    "dist": "dist/",
+    "include": "includes/",
+    "logs": "logs/",
+    "navigation": "navigation/",
+    "pages": "pages/",
+    "templates": "templates/",
+    "widgets": "widgets/"
+  },
+  "parser": {
+    "num_workers": 1,
+    "log_level": 3,
+    "log_file": "error_logs.log",
+    "port_number": "8080",
+    "file_index": "index.html",
+    "file_404": "404.html"
+  },
+  "globals": {
+    "url": "http://localhost:8080/"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <title>[TITLE]</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="[DESCRIPTION]">
+        <meta name="keywords" content="[KEYWORDS]">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen"> 
+        <link rel="canonical" href="[URL][PATH]" />
+        <style>body{background-color: #999;}</style>
+        [HEAD]
+    </head>
+    <body class="[BODYCLASS]">
+        <div id="break-point"></div>
+        <div class="wrapper">
+            <header id="nav">
+                <h1 id="logo"><a href="/">Genix<span>.dev</span></a></h1>
+                <!-- hamburger button -->
+                <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="[URL]index.html">Home</a></li>
+                        <li><a href="[URL]custom.html">Custom Page</a></li>
+                        <li><a href="[URL]404.html">404 Page</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main id="body">
+                [CONTENT]
+            </main>
+        </div>
+        <footer id="global" class="center">
+            <span>© 2025 All rights reserved</a></span>
+        </footer>
+        <script>
+            document.querySelector('#menu-toggle').addEventListener('click', () => {
+              document.querySelector('header nav').classList.toggle('active');
+            });
+        </script>
+    </body>
+</html>
